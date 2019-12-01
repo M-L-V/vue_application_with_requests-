@@ -7,15 +7,11 @@
       <selected-character :character='selectedCharacter'></selected-character>
 
     </div>
-    
+
 
   </div>
 
 </template>
-
-
-
-
 
 <script>
 
