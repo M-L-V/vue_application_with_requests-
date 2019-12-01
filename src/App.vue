@@ -21,7 +21,8 @@ export default {
   data(){
     return {
       characters: [],
-      selectedCharacter: null    }
+      selectedCharacter: null
+    }
   },
   components: {
     "characters-list": CharactersList,
@@ -32,6 +33,10 @@ export default {
     .then(res => res.json())
     .then(characters => this.characters = characters)
 
+    // fetch('https://ghibliapi.herokuapp.com/films')
+    // .then(res => res.json())
+    // .then(films => this.films = films)
+
     eventBus.$on('character-selected', (character) => {
       this.selectedCharacter = character
     })
@@ -39,9 +44,6 @@ export default {
 }
 
 </script>
-
-
-
 
 
 <style lang="css" scoped>

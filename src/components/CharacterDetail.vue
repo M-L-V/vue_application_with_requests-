@@ -4,10 +4,8 @@
   <h1> {{character.name}} </h1>
   <p> Age: {{character.age}} </p>
   <p> Gender: {{character.gender}} </p>
-
+  <p> Hair Colour: {{character.hair_color}} </p>
 </div>
-
-
 
 </template>
 
