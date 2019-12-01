@@ -8,7 +8,6 @@
 
 
 
-
 <script>
 import ListComponent from './ListComponent.vue'
 export default {

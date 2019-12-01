@@ -1,12 +1,21 @@
 <template lang="html">
-<div>
+  <div>
 
-<h1> Studio Ghibli characters API </h1>
+    <h1> Studio Ghibli characters API </h1>
+    <div>
+      <characters-list :characters='characters'></characters-list>
+      <selected-character :character='selectedCharacter'></selected-character>
 
+    </div>
+    
 
-</div>
+  </div>
 
 </template>
+
+
+
+
 
 <script>
 
